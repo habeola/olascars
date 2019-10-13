@@ -14,4 +14,9 @@ def detail(request, my_id):
     return render(request, "detail.html", {'shop': shop})
 
 
+# def categories(request, make):
+    #queryset = Brand.objects.filter(select=select)
+  #  shp = get_object_or_404(Feature, make=make)
+  #  return render(request, "categories.html", {'shp': shp})
+
 # Create your views heres
